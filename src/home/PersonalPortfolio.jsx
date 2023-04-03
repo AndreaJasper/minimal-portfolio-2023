@@ -86,8 +86,8 @@ class PersonalPortfolio extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">My Best Client</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                    <h2 className="title">My Tech Stack</h2>
+                                    <p>What I'm currently working with.</p>
                                 </div>
                             </div>
                         </div>

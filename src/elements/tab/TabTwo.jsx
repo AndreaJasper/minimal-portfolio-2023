@@ -5,9 +5,9 @@ class TabsTwo extends Component{
     render(){
         let 
         tab1 = "Main skills",
-        tab2 = "Awards",
-        tab3 = "Experience",
-        tab4 = "Education & Certification";
+        tab2 = "Experience",
+        tab3 = "Education & Certification";
+        // tab4 = "Awards";
         const { tabStyle } = this.props
         return(
             <div>
@@ -21,29 +21,67 @@ class TabsTwo extends Component{
                                         <Tab>{tab1}</Tab>
                                         <Tab>{tab2}</Tab>
                                         <Tab>{tab3}</Tab>
-                                        <Tab>{tab4}</Tab>
+                                        {/* <Tab>{tab4}</Tab> */}
                                     </TabList>
 
                                     <TabPanel>
                                         <div className="single-tab-content">
                                             <ul>
                                                 <li>
-                                                    <a href="/service">User experience design <span> - UI/UX</span></a>
-                                                    Delight the user and make it work.
+                                                    <a href="/">Full-Stack<span> - Development</span></a>
+                                                    Build a foundation, then make it pretty.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Web and user interface design<span> - Development</span></a>
-                                                    Websites, web experiences, ...
+                                                    <a href="/">Test Driven Development<span> - Development</span></a>
+                                                    So apps behave they way they should.
                                                 </li>
                                                 <li>
-                                                    <a href="/service">Interaction design <span> - Animation</span></a>
-                                                    I like to move it move it.
+                                                    <a href="/">Client Liason <span> - Project Management</span></a>
+                                                    Tech talk without the jargon.
                                                 </li>
                                             </ul>
                                         </div>
                                     </TabPanel>
 
                                     <TabPanel>
+                                       <div className="single-tab-content">
+                                           <ul>
+                                               <li>
+                                                    <a href="/">Freelance Software Developer<span> - Self Employed </span></a> 2023 - Current
+                                               </li>
+                                               <li>
+                                                    <a href="/">Software Developer<span> - Switchbox</span></a> 2022 - 2023
+                                               </li>
+                                               <li>
+                                                    <a href="/">Software Developer<span> - Radial Devlopment Group </span></a> 2021 - 2022
+                                               </li>
+                                               <li>
+                                                   <a href="/">Software Developer Student<span> - Flatiron </span></a> 2020 - 2021
+                                               </li>
+                                               {/* <li>
+                                                   <a href="/service">Project Manager<span> - Madwire </span></a> 2012 - 2020
+                                               </li> */}
+                                           </ul>
+                                       </div>
+                                    </TabPanel>
+
+                                    <TabPanel>
+                                       <div className="single-tab-content">
+                                           <ul>
+                                               <li>
+                                                   <a href="/service">PMP<span> - Project Management Institute</span></a> 2021
+                                               </li>
+                                               <li>
+                                                   <a href="/service">BSc<span> - Information Technology</span></a> 2011
+                                               </li>
+                                               {/* <li>
+                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
+                                               </li> */}
+                                           </ul>
+                                       </div>
+                                    </TabPanel>
+
+                                    {/* <TabPanel>
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
@@ -57,41 +95,7 @@ class TabsTwo extends Component{
                                                </li>
                                            </ul>
                                        </div>
-                                    </TabPanel>
-
-
-
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">Sr. Front-end Engineer<span> - Google</span></a> 2018 - Current
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Front-end Engineer<span> - Microsoft</span></a> 2017 - 2018
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Software Engineer<span> - Alibaba </span></a> 2013- 2014
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
-
-                                    <TabPanel>
-                                       <div className="single-tab-content">
-                                           <ul>
-                                               <li>
-                                                   <a href="/service">BSc In CSE<span> - ABC University, Los Angeles, CA</span></a> 2010
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Diploma in Computer Science<span> - Gamma Technical Institute</span></a> 2009
-                                               </li>
-                                               <li>
-                                                   <a href="/service">Graphic Designer<span> - ABC Institute, Los Angeles, CA</span></a> 2007
-                                               </li>
-                                           </ul>
-                                       </div>
-                                    </TabPanel>
+                                    </TabPanel> */}
                                     
                                 </Tabs>
                             </div>

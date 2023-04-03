@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
+import { FaFacebookF , FaLinkedinIn , FaTwitter, FaGithub } from "react-icons/fa";
 
 let data = [
     {
@@ -17,6 +17,10 @@ let data = [
             },
             {
                 icon: <FaTwitter />,
+                url: '#'
+            },
+            {
+                icon: <FaGithub />,
                 url: '#'
             },
         ]
