@@ -5,22 +5,22 @@ const PortfolioListContent = [
     {
         image: 'image-1',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Job Application Tracker'
     },
     {
         image: 'image-2',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Workorder App'
     },
     {
         image: 'image-3',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'DnD Character Archive'
     },
     {
         image: 'image-4',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'Practice Portfolio'
     },
     {
         image: 'image-3',
