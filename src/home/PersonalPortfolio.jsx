@@ -23,7 +23,7 @@ const SlideList = [
 class PersonalPortfolio extends Component{
     render(){
         let title = 'About Me',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = 'As a full-stack developer with project management experience, I bring a unique blend of technical skills and leadership abilities to every project I undertake. With a deep understanding of both the front-end and back-end of software development, I am able to create solutions that are both efficient and user-friendly.';
         return(
             <Fragment> 
                 <Helmet pageTitle="Personal Portfolio" />

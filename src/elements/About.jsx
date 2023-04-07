@@ -14,7 +14,7 @@ import Footer from "../component/footer/Footer";
 class About extends Component{
     render(){
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.';
+        description = 'As a full-stack developer, I am a versatile and skilled professional who is able to work on all aspects of software development, from front-end to back-end. My skills in both web development and programming languages enable me to create efficient and user-friendly solutions that meet the unique needs of each project.';
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
@@ -40,19 +40,20 @@ class About extends Component{
                                             <h2 className="title">{title}</h2>
                                             <p className="description">{description}</p>
                                         </div>
-                                        <div className="row mt--30">
-                                            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                                        <div className="row">
+                                            <div className="col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    {/* <h3 className="title">Who I am</h3> */}
+                                                    <p>I have experience working with a variety of programming languages and frameworks, including JavaScript, React, Ruby on Rails, and a variety of CSS frameworks. My strong understanding of front-end and back-end development allows me to build responsive, scalable, and high-performing applications that meet modern web standards.</p>
+                                                    <p>My expertise in project management allows me to manage projects with precision and clarity. I have a proven track record of delivering projects on time and within budget while maintaining high-quality standards. I am skilled at communicating with stakeholders, identifying and mitigating risks, and managing resources to ensure successful project delivery.</p>
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                                            {/* <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    {/* <h3 className="title">Additional Bonuses</h3>
+                                                    <p>My expertise in project management allows me to manage projects with precision and clarity. I have a proven track record of delivering projects on time and within budget while maintaining high-quality standards. I am skilled at communicating with stakeholders, identifying and mitigating risks, and managing resources to ensure successful project delivery.</p>
                                                 </div>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -61,8 +62,8 @@ class About extends Component{
                     </div>
                 </div>
                 {/* End About Area  */}
-
-                 {/* Start CounterUp Area */}
+               
+                 {/* Start CounterUp Area
                  <div className="rn-counterup-area pb--120 bg_color--1">
                     <div className="container">
                         <div className="row">
@@ -77,7 +78,7 @@ class About extends Component{
                 </div>
                 {/* End CounterUp Area */}
 
-                {/* Start Finding Us Area  */}
+                {/* Start Finding Us Area
                 <div className="rn-finding-us-area rn-finding-us bg_color--1">
                     <div className="inner">
                         <div className="content-wrapper">
@@ -96,7 +97,7 @@ class About extends Component{
                 </div>
                 {/* End Finding Us Area  */}
 
-                {/* Start Team Area  */}
+                {/* Start Team Area
                 <div className="rn-team-area bg_color--1 ptb--120">
                     <div className="container">
                         <div className="row">
@@ -109,7 +110,7 @@ class About extends Component{
                         </div>
                         <div className="row">
                             
-                            {/* Start Single Team  */}
+                            {/* Start Single Team
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
@@ -128,7 +129,7 @@ class About extends Component{
                             </div>
                             {/* End Single Team  */}
 
-                            {/* Start Single Team  */}
+                            {/* Start Single Team
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
@@ -147,7 +148,7 @@ class About extends Component{
                             </div>
                             {/* End Single Team  */}
 
-                            {/* Start Single Team  */}
+                            {/* Start Single Team
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
@@ -164,14 +165,14 @@ class About extends Component{
                                     </ul>
                                 </div>
                             </div>
-                            {/* End Single Team  */}
+                            {/* End Single Team
 
                         </div>
                     </div>
                 </div>
                 {/* End Team Area  */}
 
-                {/* Start Testimonial Area */}
+                {/* Start Testimonial Area
                 <div className="rn-testimonial-area bg_color--5 ptb--120">
                     <div className="container">
                         <Testimonial />
