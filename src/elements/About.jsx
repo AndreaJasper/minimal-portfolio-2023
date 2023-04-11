@@ -7,7 +7,7 @@ import BrandTwo from "../elements/BrandTwo";
 import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import HeaderTwo from "../component/header/HeaderTwo";
 import Footer from "../component/footer/Footer";
 
 
@@ -19,7 +19,7 @@ class About extends Component{
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
 
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
+                <HeaderTwo headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
                 {/* Start Breadcrump Area */}
                 <Breadcrumb title={'About'}   />
                 {/* End Breadcrump Area */}

@@ -3,34 +3,19 @@ import {Link} from "react-router-dom";
 
 const PortfolioListContent = [
     {
-        image: 'image-1',
-        category: 'Development',
-        title: 'Job Application Tracker'
-    },
-    {
         image: 'image-2',
         category: 'Development',
         title: 'Workorder App'
     },
     {
+        image: 'image-1',
+        category: 'Development',
+        title: 'Job Application Tracker'
+    },
+    {
         image: 'image-3',
         category: 'Development',
         title: 'DnD Character Archive'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Practice Portfolio'
-    },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: 'image-4',
-        category: 'Development',
-        title: 'Getting tickets to the big show'
     }
 ]
 
