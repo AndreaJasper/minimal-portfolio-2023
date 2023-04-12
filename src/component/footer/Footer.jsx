@@ -21,7 +21,7 @@ class Footer extends Component{
                                         <span>Ready To Do This</span>
                                         <h2>Let's get <br /> to work</h2>
                                         <a className="rn-button-style--2" href="/contact">
-                                            <span>Contact Us</span>
+                                            <span>Contact Me</span>
                                         </a>
                                     </div>
                                 </div>

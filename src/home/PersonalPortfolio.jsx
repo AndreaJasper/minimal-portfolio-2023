@@ -13,8 +13,8 @@ import Helmet from "../component/common/Helmet";
 const SlideList = [
     {
         textPosition: 'text-left',
-        category: 'Freelance digital designer',
-        title: 'Hello, I’m <span>Nancy</span> Welcome to my World.',
+        category: 'Full-Stack Developer',
+        title: 'Hello, I’m <span>Andrea</span> Welcome to my World.',
         description: '',
         buttonText: '',
         buttonLink: ''
