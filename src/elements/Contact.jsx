@@ -6,7 +6,7 @@ import ContactTwo from "../elements/contact/ContactTwo";
 import BrandTwo from "../elements/BrandTwo";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import HeaderTwo from "../component/header/HeaderTwo";
 import Footer from "../component/footer/Footer";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
@@ -25,7 +25,7 @@ class Contact extends Component{
             <React.Fragment>
                 <PageHelmet pageTitle='Contact' />
 
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
+                <HeaderTwo headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
                  {/* Start Breadcrump Area */}
                  <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6">
@@ -33,7 +33,7 @@ class Contact extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Cntact With Us</h2>
+                                    <h2 className="title theme-gradient">Contact Me</h2>
                                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
                                 </div>
                             </div>
