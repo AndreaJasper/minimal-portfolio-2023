@@ -34,7 +34,7 @@ class PersonalPortfolio extends Component{
                 <div className="slider-wrapper">
                     {/* Start Single Slide */}
                     {SlideList.map((value , index) => (
-                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--16" key={index}>
+                        <div className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--36" key={index}>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-lg-12">
@@ -53,7 +53,7 @@ class PersonalPortfolio extends Component{
                 </div>
                 {/* End Slider Area   */}
 
-                {/* Start About Area */}
+                {/* Start About Area
                 <div className="about-area about-position-top pb--120  bg_color--1">
                     <div className="about-wrapper">
                         <div className="container">
@@ -78,30 +78,10 @@ class PersonalPortfolio extends Component{
                         </div>
                     </div>
                 </div>
-                {/* End About Area */}
-
-                {/* Start Brand Area */}
-                <div className="rn-brand-area pb--120 bg_color--1">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">My Tech Stack</h2>
-                                    <p>What I'm currently working with.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-lg-12 mt--40 mt_sm--5 mt_md--5">
-                                <Brand branstyle="branstyle--2" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Brand Area */}
+                End About Area */}
 
                 {/* Start Portfolio Area */}
-                <div className="portfolio-area pb--60 bg_color--1">
+                <div className="portfolio-area pb--60 pt--100 bg_color--1">
                     <div className="portfolio-sacousel-inner mb--55 mb_sm--0">
                         <div className="container">
                             <div className="row">
@@ -127,11 +107,31 @@ class PersonalPortfolio extends Component{
                 </div>
                 {/* End Portfolio Area */}
 
-                {/* Start Portfolio Area */}
+                {/* Start Tech Stack */}
+                <div className="rn-brand-area pb--120 bg_color--1">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <div className="section-title text-center service-style--3 mb--30">
+                                    <h2 className="title">My Tech Stack</h2>
+                                    <p>What I'm currently working with.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-12 mt--40 mt_sm--5 mt_md--5">
+                                <Brand branstyle="branstyle--2" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/* End Tech Stack*/}
+
+                {/* Start Contact Area
                 <div className="portfolio-area pb--120 bg_color--1">
                     <ContactOne />
                 </div>
-                {/* End Portfolio Area */}
+                End Contact Area */}
 
                 <Footer />
 
